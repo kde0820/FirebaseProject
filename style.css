@@ -28,6 +28,18 @@ html, body{
     text-align: center;
     border-radius: 1%;
 }
+#logo-img{
+    position: fixed;
+    top: 20%;
+    left: 0;
+    right: 0;
+    transform: translate(0%, -20%);
+    margin: auto;
+}
+
+#logo-img img{
+    width: 120px;
+}
 #content{
     position: fixed;
     padding: 0;
