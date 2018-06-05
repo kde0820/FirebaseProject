@@ -59,12 +59,12 @@ html, body{
     padding-left: 8%;
     border: solid rgb(216, 216, 216) 1px;
 }
-#usr_id{
+#usr-email{
     border-top-left-radius: 2%;
     border-top-right-radius: 2%;
     border-bottom: 0px !important;
 }
-#usr_pw{
+#usr-pw{
     border-bottom-left-radius: 2%;
     border-bottom-right-radius: 2%;
     border-top-color: rgb(244, 244, 244)!important;
@@ -81,7 +81,7 @@ html, body{
     border-radius: 1%;
 }
 
-#login_error{
+#login-error{
     width: 220px;
     position: fixed;
     top: 65%;
@@ -90,7 +90,7 @@ html, body{
     transform: translate(0%, -65%);
     margin: auto;
 }
-#login_error p{
+#error-message{
     font-size: 11px;
     color: rgb(255, 125, 68);
     /* text-align: left; */
